@@ -3,30 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write .prettier.json './**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier --write .prettierrc.json './**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
-    "next": "14.2.14",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "15.0.2",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028"
   },
   "devDependencies": {
-    "@types/eslint-config-prettier": "~6.11.3",
+    "@eslint/compat": "^1.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.14",
+    "eslint": "^9.13.0",
+    "eslint-config-next": "^15.0.2",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.3.3",
     "typescript": "^5"
-  },
-  "volta": {
-    "node": "20.18.0",
-    "npm": "10.9.0"
   }
 }
