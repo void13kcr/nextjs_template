@@ -22,7 +22,9 @@
     "eslint": "^9.13.0",
     "eslint-config-next": "^15.0.2",
     "eslint-config-prettier": "^9.1.0",
+    "markuplint": "^4.11.1",
     "prettier": "^3.3.3",
+    "stylelint": "^16.10.0",
     "typescript": "^5"
   }
 }
