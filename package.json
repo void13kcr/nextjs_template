@@ -9,7 +9,8 @@
     "start": "next start",
     "lint:es": "next lint",
     "lint:style": "stylelint src/**/*.{css,scss}",
-    "format": "prettier --write .prettierrc.json './**/*.{js,jsx,ts,tsx}'",
+    "lint:markup": "markuplint src/**/*.{html,jtsx}",
+    "format": "prettier --write .prettierrc.json './**/*.{json,js,jsx,ts,tsx}'",
     "prepare": "husky"
   },
   "dependencies": {
@@ -19,6 +20,8 @@
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.2",
+    "@markuplint/jsx-parser": "^4.7.12",
+    "@markuplint/react-spec": "^4.5.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
