@@ -7,7 +7,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint:es": "next lint",
+    "lint:style": "stylelint src/**/*.{css,scss}",
     "format": "prettier --write .prettierrc.json './**/*.{js,jsx,ts,tsx}'",
     "prepare": "husky"
   },
@@ -29,6 +30,10 @@
     "markuplint": "^4.11.1",
     "prettier": "^3.3.3",
     "stylelint": "^16.10.0",
+    "stylelint-config-css-modules": "^4.4.0",
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-scss": "^6.8.1",
     "typescript": "^5"
   }
 }
