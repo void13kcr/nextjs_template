@@ -14,9 +14,9 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "next": "15.0.3"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.2",
@@ -38,5 +38,8 @@
     "stylelint-config-standard": "^36.0.1",
     "stylelint-scss": "^6.8.1",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": "22.12.0"
   }
 }
